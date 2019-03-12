@@ -18,3 +18,9 @@ describe("#average", function () {
     expect(average()).toEqual(0)
   })
 })
+
+describe("#subtract", function(){
+  it("subtracts two numbers", function(){
+    expect(subtract(2,2)).toEqual(0)
+  })
+})
