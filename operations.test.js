@@ -7,9 +7,6 @@ describe("#add", function(){
   it("handles empty inputs", function () {
     expect(add()).toEqual(0)
   })
-  it("breaks", function() {
-    expect(add(2,2)).toEqual(5);
-  });
 })
 
 describe("#average", function () {
