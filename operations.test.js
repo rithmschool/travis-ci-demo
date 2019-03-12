@@ -1,4 +1,4 @@
-const {add, average} = require("./operations")
+const {add, average, subtract} = require("./operations")
 
 describe("#add", function(){
   it("adds numbers", function(){
