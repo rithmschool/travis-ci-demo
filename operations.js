@@ -5,7 +5,7 @@ function add(a = 0, b = 0) {
 function average(...nums) {
   if (nums.length === 0) return 0;
   const total = nums.reduce(function(acc, next) {
-    return acc + next;
+    return add(acc, next);
   });
   return total / nums.length;
 }
