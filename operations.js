@@ -14,4 +14,4 @@ function average(...nums) {
   return total / nums.length;
 }
 
-module.exports = { add, average };
+module.exports = { add, average, subtract };
