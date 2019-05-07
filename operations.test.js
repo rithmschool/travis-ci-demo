@@ -1,4 +1,4 @@
-const { add, average } = require("./operations");
+const { add, average, subtract } = require("./operations");
 
 describe("#add", function() {
   it("adds numbers", function() {
@@ -6,6 +6,15 @@ describe("#add", function() {
   });
   it("handles empty inputs", function() {
     expect(add()).toEqual(0);
+  });
+});
+
+describe("#subtract", function() {
+  it("subtracts numbers", function() {
+    expect(subtract(2, 2)).toEqual(0);
+  });
+  it("handles empty inputs", function() {
+    expect(subtract()).toEqual(0);
   });
 });
 
