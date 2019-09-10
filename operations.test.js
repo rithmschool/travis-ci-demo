@@ -21,7 +21,7 @@ describe("#subtract", function() {
 describe("#multiply", function() {
   it("multiplies two numbers", function() {
     expect(multiply(2, 3)).toEqual(6);
-    expect(multiply(-4, 5)).toEqual(20);
+    expect(multiply(-4, 5)).toEqual(-20);
   });
 });
 
