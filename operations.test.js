@@ -12,7 +12,7 @@ describe("#add", function () {
 
 describe("#subtract", function () {
   it("subtracts numbers", function () {
-    expect(subtract(2, 2)).toEqual(10);
+    expect(subtract(2, 2)).toEqual(0);
   });
   it("handles empty inputs", function () {
     expect(subtract()).toEqual(0);
